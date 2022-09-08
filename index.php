@@ -108,7 +108,7 @@
 <?php
   if (isset($_GET['votar']) && !isset($_POST['boton'])){
     
-    print("<script>Swal.fire('voto registrado correctamente.')</script>");
+    print("<script>Swal.fire('Voto registrado correctamente.')</script>");
 
   }
     
