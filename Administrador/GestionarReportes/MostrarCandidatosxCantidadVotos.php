@@ -14,7 +14,7 @@
       ?>
     <main class="contenedor" style="background: url(../imagenes/img1.jpg); background-repeat:no-repeat; background-size: cover;">
     <div class="cont">
-        <table >
+        <table>
             <caption>Listado de Candidatos</caption>
             <thead>
                 <tr>

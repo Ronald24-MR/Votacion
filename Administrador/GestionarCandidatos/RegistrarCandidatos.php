@@ -1,16 +1,16 @@
 <?php
-   session_start();
-   if(isset($_SESSION['usuario']))
-    {
-        // recuperando la session
-        $usuario=$_SESSION['usuario'];
-        // print("Bienvenido: ".$usuario[1]." ".$usuario[2]);
-    }
-    else
-    {
-        // redireccionar para el login
-        header("Location: /index.php");
-    }
+//    session_start();
+//    if(isset($_SESSION['usuario']))
+//     {
+//         // recuperando la session
+//         $usuario=$_SESSION['usuario'];
+//         // print("Bienvenido: ".$usuario[1]." ".$usuario[2]);
+//     }
+//     else
+//     {
+//         // redireccionar para el login
+//         header("Location: /index.php");
+//     }
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -133,10 +133,11 @@
                 
                     <br>
                 <div class="col button"><button class="btn btn-primary" type="submit" name="boton">Guardar</button></div>
-             
+                <div class="col button"><button class="btn btn-success" type="submit" name="importar">Importar</button></div>    
             </div>
    
     </form>
+    
     </main>
     <footer >
             <div >
