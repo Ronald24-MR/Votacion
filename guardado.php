@@ -38,7 +38,7 @@
         }
     else
     {
-        print("error al conectar");
+        print("error al conectarr");
     }
     }
 
